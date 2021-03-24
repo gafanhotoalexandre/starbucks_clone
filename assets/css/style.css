@@ -149,7 +149,7 @@ header .line {
     grid-template-columns: repeat(2, 1fr);
 }
 .area2--content {
-    padding: 80px;
+    padding: 80px 120px;
 }
 .area2--text {
     margin-bottom: 55px;
@@ -204,4 +204,19 @@ header .line {
 .area4--img1 {
     background-image: url('../images/bg3.jpg');
     background-position: left;
+}
+
+.area5 {
+    background-image: url('../images/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+
+    height: 600px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
 }
